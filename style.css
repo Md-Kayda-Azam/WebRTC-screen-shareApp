@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.meet-area {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#main-screen {
+    height: 525px;
+    width: 950px;
+    background-color: #333;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 15px;
+}
+
+.footer {
+    height: 75px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    gap: 320px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.controls button {
+    margin-top: 10px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: tomato;
+    font-size: 20px;
+    border-radius: 50%;
+    color: #fff;
+    border: none;
+    transition: .3s;
+    cursor: pointer;
+}
+.controls button:hover {
+  
+    background-color: #1670b4;
+    color: #fff;
+}
+
+.callers-sreen {
+    height: 200px;
+    width: 200px;
+    background-color: tomato;
+    top: 30px;
+    right: 30px;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+
+}
+
+#main-video {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
